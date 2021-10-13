@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/newcustomer', [factoryController::class, 'addUser']);
+Route::get('/newproduct', [factoryController::class, 'addProduct']);
+Route::get('/neworder', [factoryController::class, 'addOrder']);
+Route::get('/neworderdetail', [factoryController::class, 'addOrderDetail']);
